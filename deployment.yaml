@@ -18,7 +18,7 @@ spec:
         image: sangrei/gateway:v0.1
         env:
         - name: eureka.serviceUrl
-          value: http://192.168.72.3:9011/eureka/,http://192.168.72.4:9011/eureka/
+          value: http://192.168.72.3:9011/eureka/
         ports:
         - containerPort: 80
           hostPort: 9015
