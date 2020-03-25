@@ -19,9 +19,9 @@ spec:
         imagePullPolicy: Always
         env:
         - name: eureka.serviceUrl
-          value: http://192.168.72.3:9011/eureka/
+          value: http://192.168.72.4:9011/eureka/
         - name: zipkin.base-url
-          value: http://192.168.72.3:9075/
+          value: http://192.168.72.4:9075/
         ports:
         - containerPort: 80
           hostPort: 9015
