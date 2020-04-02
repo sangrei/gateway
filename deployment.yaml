@@ -6,7 +6,7 @@ metadata:
   labels:
     app: basic-service
 spec:
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
